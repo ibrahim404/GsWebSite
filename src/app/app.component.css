@@ -1,0 +1,24 @@
+body, div, ul {margin: 0; padding: 0;}
+body{ background-color: #F5F5F5;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+    }
+.global{width:100%; margin: 0 auto ; background-color: #D9E4EA}
+
+.entete{height: 80px;padding: 10px; background-color: #002538; font-size: 14px; color: white}
+
+.blocmenu{width: 15%;  float: left;}
+
+.contenu{width: 82%; float: right;
+  min-height: 750px;
+  padding: 10px 10px 10px 30px;
+  background: white
+}
+
+.pied{clear: both; padding: 5px; background-color: lightgray}
+
+#menu li {list-style-type: none;}
+
+#menu li a, #menu li a:visited {display: block; padding: 10px;font-size: 14px; text-decoration: none; color: black;}
+
+#menu li a:hover {background-color: lightsteelblue; color: brown}
